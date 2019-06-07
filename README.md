@@ -14,6 +14,10 @@ sudo chmod u+s locksuspend
 
 The `locksuspend` command should run then.
 
+### LockHibernate 
+
+The `lockhibernate` command is just like `locksuspend` but instead of suspending (saving the system state to RAM) it puts the system in hibernation (saving the system state to hard disk).
+
 ### Software
 
 This works for KDE 5.x, but I haven't tested it on earlier versions.
